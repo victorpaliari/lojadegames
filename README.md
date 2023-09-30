@@ -1,7 +1,7 @@
 # lojadegames
 
 <p align="center">
-<img height="380em" src=""/>
+<img height="500em" src="https://github.com/victorpaliari/lojadegames/blob/main/_e9f796da-6fab-40c9-8205-ec03fb6ac99a.jpeg"/>
 
 ## Descrição
 O projeto "Loja de Games" é um sistema de gerenciamento de produtos desenvolvido em ASP.NET MVC. Ele permite que os usuários realizem operações de CRUD (Create, Read, Update, Delete) em produtos da loja de jogos. O sistema segue boas práticas de programação e utiliza programação orientada a objetos (POO) para manter o código organizado e escalável.
