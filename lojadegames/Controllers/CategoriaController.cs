@@ -4,10 +4,11 @@ using lojadegames.Model;
 using lojadegames.Service;
 using lojadegames.Service.Implements;
 using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Authorization;
 
 namespace lojadegames.Controllers
 {
-
+    [Authorize]
     [Route("~/categorias")]
     [ApiController]
     public class CategoriaController : ControllerBase

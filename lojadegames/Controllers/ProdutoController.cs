@@ -4,11 +4,11 @@ using lojadegames.Model;
 using lojadegames.Service;
 using lojadegames.Service.Implements;
 using Microsoft.AspNetCore.Http.HttpResults;
-
+using Microsoft.AspNetCore.Authorization;
 
 namespace lojadegames.Controllers
 {
-        //[Route] - Indica o endereço Http
+        [Authorize]
         [Route("~/produtos")]
         //[ApiController] indica que a classe é do tipo Controller
         [ApiController]

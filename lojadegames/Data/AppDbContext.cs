@@ -10,6 +10,7 @@ namespace lojadegames.Data
         {
             modelBuilder.Entity<Produto>().ToTable("tb_produtos");
             modelBuilder.Entity<Categoria>().ToTable("tb_categorias");
+            modelBuilder.Entity<User>().ToTable("tb_usuarios");
 
             _ = modelBuilder.Entity<Produto>()
 
@@ -28,6 +29,7 @@ namespace lojadegames.Data
         //Registrar DbSET - Objeto responsável por criar a tabela
         public DbSet<Produto> Produtos { get; set; } = null!;
         public DbSet<Categoria> Categorias { get; set; } = null!;
+        public DbSet<User> Users { get; set; } = null!;
 
         //metodo para persistir o async
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
